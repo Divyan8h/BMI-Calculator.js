@@ -1,0 +1,15 @@
+function BMICALCULATOR(weight, height){  
+var bmi = (weight/Math.pow(height,2));
+  if(bmi<18.5)
+  {
+    console.log("Your BMI is " + Math.round(bmi) + "," + " so you are underweight.");
+  }
+  else if(bmi>18.5 && bmi<24.90)
+  {
+    console.log("Your Bmi is " + Math.round(bmi) + "," + " so you have a normal weight.");
+  }
+  else{
+    console.log("Your Bmi is " + Math.round(bmi) + "," + " so you are overweight.");
+  }
+}
+BMICALCULATOR(60,2);
